@@ -1,0 +1,33 @@
+{
+  "name": "zkr-cli-test",
+  "version": "1.0.1",
+  "description": "搭建cli脚手架",
+  "main": "index.js",
+  "bin": {
+    "zkr-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkr-1211/APP-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "hhttps://github.com/zkr-1211/APP-CLI/issues"
+  },
+  "homepage": "hhttps://github.com/zkr-1211/APP-CLI#readme",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  },
+  "files": [
+    "bin"
+  ]
+}
