@@ -1,4 +1,4 @@
-# 学习搭建cli脚手架
+# 搭建cli脚手架
 
 ## 安装
 ### 全局安装
@@ -10,13 +10,13 @@ $ yarn global add gtxy-cli
 创建模版
 $ npx create gtxy-cli <name> [-t|--template]
 示例
-$ npx create gtxy-cli hello-cli -template uni-app
+$ npx create gtxy-cli hello-cli -template uni-app-template
 
 ## 使用
 创建模版
 $ gtxy-cli create <name> [-t|--template]
 示例
-$ gtxy-cli create hello-cli -t uni-app
+$ gtxy-cli create hello-cli -t uni-app-template
 
 
 ## 关于npm（如何发布自己的npm包）可参考 https://zhuanlan.zhihu.com/p/575485165
