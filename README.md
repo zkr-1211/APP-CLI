@@ -2,21 +2,21 @@
 
 ## 安装
 ### 全局安装
-$ npm install -g zkr-cli-test
+$ npm install -g gtxy-cli
 # or yarn
-$ yarn global add zkr-cli-test
+$ yarn global add gtxy-cli
 
 ### 借助npx
 创建模版
-$ npx create zkr-cli <name> [-t|--template]
+$ npx create gtxy-cli <name> [-t|--template]
 示例
-$ npx create zkr-cli hello-cli -template vue3-vant-mobile
+$ npx create gtxy-cli hello-cli -template uni-app
 
 ## 使用
 创建模版
-$ zkr-cli create <name> [-t|--template]
+$ gtxy-cli create <name> [-t|--template]
 示例
-$ zkr-cli create hello-cli -t vue3-vant-mobile
+$ gtxy-cli create hello-cli -t uni-app
 
 
 ## 关于npm（如何发布自己的npm包）可参考 https://zhuanlan.zhihu.com/p/575485165
